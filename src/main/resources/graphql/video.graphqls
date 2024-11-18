@@ -1,0 +1,10 @@
+type VideoDto {
+    name: String!
+    url: String!
+    description: String
+}
+
+type Query {
+    getVideoById(id: ID!): VideoDto
+}
+
